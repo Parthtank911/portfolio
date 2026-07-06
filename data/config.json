@@ -1,0 +1,24 @@
+{
+  "name": "Parth Tank",
+  "role": "Full-Stack MERN Developer & AI/ML Enthusiast",
+  "roles": [
+    "Full-Stack MERN Developer",
+    "AI/ML Enthusiast",
+    "React & Node.js Developer",
+    "Problem Solver"
+  ],
+  "tagline": "Building scalable, data-driven web applications with clean engineering and modern AI tools.",
+  "bio": "I'm a Computer Engineering student (Diploma + B.E.) specializing in full-stack MERN development and AI/ML. I enjoy building real-time web applications with React and Node.js, and developing end-to-end predictive ML pipelines using Python, TensorFlow, and Scikit-learn. I'm passionate about delivering scalable, data-driven solutions through clean engineering and modern AI tools.",
+  "githubUsername": "parthtank911",
+  "hobbies": [
+    { "label": "Full-Stack Development" },
+    { "label": "ML Research" },
+    { "label": "Competitive Programming" },
+    { "label": "Chess" }
+  ],
+  "resumePath": "assets/resume.pdf",
+  "socialLinks": {
+    "github": "https://github.com/Parthtank911",
+    "email": "parthtank911@gmail.com"
+  }
+}

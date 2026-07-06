@@ -1,0 +1,32 @@
+[
+  {
+    "type": "experience",
+    "title": "AI/ML Intern",
+    "organization": "Microsoft Elevate (GTU Program) — Fice Education Pvt. Ltd.",
+    "dateRange": "Jan 2026 - Apr 2026",
+    "description": "Completed a 12-week Microsoft Elevate – GTU internship focused on Artificial Intelligence, Machine Learning, and Microsoft Copilot. Gained hands-on exposure to emerging AI-powered tools under Microsoft India's Elevate initiative, and applied Copilot and generative AI concepts to real-world problem-solving scenarios."
+  },
+  {
+    "type": "experience",
+    "title": "AI/ML Virtual Intern",
+    "organization": "SmartBridge Education Pvt. Ltd.",
+    "dateRange": "Jun 2025 - Aug 2025",
+    "description": "Developed end-to-end machine learning models in Python covering exploratory data analysis, feature engineering, model training, and evaluation. Applied metrics like accuracy, F1 score, and ROC-AUC to compare algorithms and identify the most effective approach for each problem."
+  },
+  {
+    "type": "education",
+    "title": "Bachelor of Engineering in Computer Engineering",
+    "organization": "V.V.P. Engineering College, Rajkot",
+    "dateRange": "Sep 2023 - May 2026",
+    "cgpa": "7.62",
+    "description": "Pursuing a B.E. in Computer Engineering with coursework spanning Data Structures & Algorithms, Object-Oriented Programming, and full-stack web development."
+  },
+  {
+    "type": "education",
+    "title": "Diploma in Computer Engineering",
+    "organization": "A. V. Parekh Technical Institute, Rajkot",
+    "dateRange": "Oct 2020 - Aug 2023",
+    "cgpa": "7.69",
+    "description": "Built a strong foundation in core computer engineering concepts, programming fundamentals, and system design principles."
+  }
+]

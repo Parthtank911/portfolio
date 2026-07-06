@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO and Tab Metadata -->
+    <title>Parth Tank | Full-Stack Software Engineer Portfolio</title>
+    <meta name="description" content="Professional developer portfolio of Alex Morgan, showcasing modern web applications, skillsets, timeline journey, and live GitHub statistics." />
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <!-- ==========================================================================
+         HEADER / NAVIGATION
+         ========================================================================== -->
+    <header id="header" class="header" role="banner">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="#home" class="logo" aria-label="Go to top">
+          <span>&lt;Parth</span><span class="logo-accent">.Dev /&gt;</span>
+        </a>
+
+        <!-- Main Desktop Navigation Menu -->
+        <nav role="navigation" aria-label="Primary Navigation">
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right Side Utility Controls (Theme Toggle & Hamburger Button) -->
+        <div class="nav-actions">
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle visual theme">
+            <!-- Sun icon loaded dynamically via JavaScript based on active theme state -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          </button>
+          
+          <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- ==========================================================================
+           1. HERO SECTION
+           ========================================================================== -->
+      <section id="home" class="hero">
+        <div class="container hero-layout">
+          <!-- Text and Action Buttons -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              <span>Available for Opportunities</span>
+            </div>
+            <h1 class="hero-title">
+              Hi, I'm <span id="heroName" class="hero-name">Alex Morgan</span>
+            </h1>
+            <div id="heroRole" class="hero-role">Full-Stack Software Engineer</div>
+            <p id="heroTagline" class="hero-tagline">
+              Crafting beautiful, high-performance web experiences with pixel-perfect precision.
+            </p>
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary">
+                View My Projects
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a id="resumeBtn" href="assets/resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                Download Resume
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </a>
+            </div>
+            
+            <div class="hero-socials">
+              <span class="hero-socials-label">Connect:</span>
+              <div id="heroSocials" class="hero-socials">
+                <!-- Social links filled dynamically from JSON -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Abstract Sphere Visual Graphic -->
+          <div class="hero-visual">
+            <div class="hero-sphere">
+              <div class="hero-sphere-inner"></div>
+            </div>
+            <div class="hero-code-box">
+              <span class="hero-code-accent">const</span> developer = {<br />
+              &nbsp;&nbsp;code: <span class="hero-code-accent">"HTML/CSS/JS"</span>,<br />
+              &nbsp;&nbsp;creative: <span class="hero-code-accent">true</span><br />
+              };
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           2. ABOUT SECTION
+           ========================================================================== -->
+      <section id="about">
+        <div class="container">
+          <div class="section-header reveal reveal-up">
+            <span class="section-subtitle">About Me</span>
+            <h2 class="section-title">My Journey</h2>
+          </div>
+          
+          <div class="about-layout">
+            <!-- Profile Photo/Avatar Frame -->
+            <div class="about-photo-wrapper reveal reveal-left">
+              <div class="about-photo-placeholder">
+                <!-- Neutral vector placeholder for developer illustration -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <span class="text-muted" style="font-family: var(--font-mono); font-size: 0.8rem;">/assets/profile.jpg</span>
+              </div>
+            </div>
+
+            <!-- Detailed Biography Paragraphs -->
+            <div class="about-bio reveal reveal-right">
+              <div id="aboutBio">
+                <!-- Bio parsed dynamically from config.json -->
+              </div>
+
+              <div class="beyond-code">
+                <span class="beyond-code-label">Beyond Code</span>
+                <div id="hobbiesList" class="hobbies-list">
+                  <!-- Hobby pills rendered dynamically from config.json -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           3. SKILLS SECTION
+           ========================================================================== */ -->
+      <section id="skills" style="background-color: var(--bg-secondary);">
+        <div class="container">
+          <div class="section-header reveal reveal-up">
+            <span class="section-subtitle">Expertise</span>
+            <h2 class="section-title">My Tech Stack</h2>
+            <p class="section-desc text-muted">A comprehensive overview of libraries, frameworks, systems, and developer tools I specialize in.</p>
+          </div>
+          
+          <div id="skillsContainer" class="skills-container">
+            <!-- Dynamic Category cards populate here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           4. PROJECTS SECTION (GITHUB API-INTEGRATED)
+           ========================================================================== -->
+      <section id="projects">
+        <div class="container">
+          <div class="section-header reveal reveal-up">
+            <span class="section-subtitle">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc text-muted">A compilation of my latest work pulled in real-time from my GitHub public repositories.</p>
+          </div>
+          
+          <!-- Dynamic GitHub Profile Card inside My Projects section -->
+          <div id="githubProfileCard" class="github-profile-card reveal reveal-up" style="display: none;">
+            <!-- Populated dynamically on page load -->
+          </div>
+
+          <div id="projectsGrid" class="projects-grid">
+            <!-- Skeletons render initially, and are overwritten by git repositories -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           6. EXPERIENCE & EDUCATION TIMELINE
+           ========================================================================== -->
+      <section id="experience" style="background-color: var(--bg-secondary);">
+        <div class="container">
+          <div class="section-header reveal reveal-up">
+            <span class="section-subtitle">My History</span>
+            <h2 class="section-title">Experience & Education</h2>
+            <p class="section-desc text-muted">My educational background and professional milestones organized in a unified timeline.</p>
+          </div>
+          
+          <div id="timelineContainer" class="timeline-container">
+            <!-- Vertical timeline entries mapped dynamically from experience.json -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           7. CONTACT SECTION (EMAILJS-INTEGRATED)
+           ========================================================================== -->
+      <section id="contact" style="background-color: var(--bg-primary);">
+        <div class="container">
+          <div class="section-header reveal reveal-up">
+            <span class="section-subtitle">Get In Touch</span>
+            <h2 class="section-title">Let's Collaborate</h2>
+            <p class="section-desc text-muted">Have an exciting project, job opportunity, or simply want to say hello? Drop a message below!</p>
+          </div>
+          
+          <div class="contact-layout">
+            <!-- Left Info: Personal Social Cards -->
+            <div class="contact-info reveal reveal-left">
+              <div class="contact-card-text">
+                <h3>Connect With Me</h3>
+                <p class="text-muted">Feel free to reach out via email or connect with me across any of my professional social networks.</p>
+              </div>
+              <div id="contactSocials" class="contact-socials-grid">
+                <!-- Dynamic social links populate here -->
+              </div>
+            </div>
+
+            <!-- Right Form: Contact Form Container -->
+            <div class="contact-form-container reveal reveal-right">
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Your Name *</label>
+                    <input type="text" id="name" class="form-control" placeholder="John Doe" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email Address *</label>
+                    <input type="email" id="email" class="form-control" placeholder="john@example.com" required />
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject *</label>
+                  <input type="text" id="subject" class="form-control" placeholder="Project Inquiry" required />
+                </div>
+                
+                <div class="form-group">
+                  <label for="message" class="form-label">Message *</label>
+                  <textarea id="message" class="form-control" placeholder="Hello Alex, I'd love to chat about..." required></textarea>
+                </div>
+
+                <!-- Live inline message alert card -->
+                <div id="formStatus" class="form-status"></div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">
+                  <span class="btn-text">Send Message</span>
+                  <span class="btn-spinner"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================================================
+         8. FOOTER
+         ========================================================================== -->
+    <footer class="footer" role="contentinfo">
+      <div class="container footer-layout">
+        <!-- Logo duplicate -->
+        <a href="#home" class="logo" aria-label="Go to top">
+          <span>&lt;Parth</span><span class="logo-accent">.Dev /&gt;</span>
+        </a>
+
+        <!-- Quick navigation anchors -->
+        <ul class="footer-nav">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#skills" class="footer-link">Skills</a></li>
+          <li><a href="#projects" class="footer-link">Projects</a></li>
+          <li><a href="#experience" class="footer-link">Experience</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+
+        <!-- Copyright Info -->
+        <div class="footer-bottom">
+          <span id="footerCopyright">© 2026 Alex Morgan. All Rights Reserved.</span>
+          <span>Designed with care</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Back-to-Top Anchor -->
+    <button id="backToTop" class="back-to-top" aria-label="Scroll back to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up"><path d="m18 15-6-6-6 6"/></svg>
+    </button>
+
+    <!-- ==========================================================================
+         SCRIPTS
+         ========================================================================== -->
+    <!-- EmailJS SDK (Loaded via official CDN script tag) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!-- Core Application Entry Script (ES Module) -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

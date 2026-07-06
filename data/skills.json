@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Web Development",
+    "skills": [
+      { "name": "React.js", "icon": "Atom" },
+      { "name": "Node.js", "icon": "Cpu" },
+      { "name": "Express.js", "icon": "Server" },
+      { "name": "Socket.io", "icon": "Workflow" },
+      { "name": "EJS", "icon": "Code" },
+      { "name": "HTML5 / CSS3", "icon": "Palette" },
+      { "name": "JavaScript (ES6+)", "icon": "Braces" }
+    ]
+  },
+  {
+    "category": "AI/ML & Data Science",
+    "skills": [
+      { "name": "Python", "icon": "Terminal" },
+      { "name": "Scikit-learn", "icon": "ShieldCheck" },
+      { "name": "TensorFlow", "icon": "Layers" },
+      { "name": "Keras", "icon": "Flame" },
+      { "name": "Pandas", "icon": "Database" },
+      { "name": "NumPy", "icon": "GitBranch" },
+      { "name": "Streamlit", "icon": "Cloud" },
+      { "name": "Microsoft Copilot", "icon": "UserPlus" }
+    ]
+  },
+  {
+    "category": "Databases & Tools",
+    "skills": [
+      { "name": "MongoDB", "icon": "Layers" },
+      { "name": "MySQL", "icon": "Database" },
+      { "name": "Git / GitHub", "icon": "GitFork" },
+      { "name": "Command Line", "icon": "Terminal" },
+      { "name": "Basic AWS / Cloud", "icon": "Cloud" }
+    ]
+  },
+  {
+    "category": "Core CS & Languages",
+    "skills": [
+      { "name": "Data Structures & Algorithms", "icon": "Workflow" },
+      { "name": "C", "icon": "Code" },
+      { "name": "C++", "icon": "Code" },
+      { "name": "Java", "icon": "Code" },
+      { "name": "OOP", "icon": "Container" }
+    ]
+  }
+]

@@ -4,7 +4,7 @@
 
 A modern, animated, fully static developer portfolio built with plain HTML, CSS, and vanilla JavaScript — no frameworks, no build step, deployed directly on GitHub Pages.
 
-🔗 **Live Site:** [parthtank911.github.io/your-repo-name](https://parthtank911.github.io/your-repo-name)
+🔗 **Live Site:** [parthtank911.github.io/your-repo-name](https://parthtank911.github.io/portfolio/)
 &nbsp;•&nbsp;
 💻 **GitHub:** [github.com/Parthtank911](https://github.com/Parthtank911)
 

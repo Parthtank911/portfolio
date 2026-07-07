@@ -8,7 +8,10 @@
       { "name": "Socket.io", "icon": "Workflow" },
       { "name": "EJS", "icon": "Code" },
       { "name": "HTML5 / CSS3", "icon": "Palette" },
-      { "name": "JavaScript (ES6+)", "icon": "Braces" }
+      { "name": "JavaScript (ES6+)", "icon": "Braces" },
+      { "name": "REST API Design", "icon": "Workflow" },
+      { "name": "JWT Authentication", "icon": "ShieldCheck" },
+      { "name": "API Testing (Postman)", "icon": "Workflow" }
     ]
   },
   {
@@ -21,7 +24,9 @@
       { "name": "Pandas", "icon": "Database" },
       { "name": "NumPy", "icon": "GitBranch" },
       { "name": "Streamlit", "icon": "Cloud" },
-      { "name": "Microsoft Copilot", "icon": "UserPlus" }
+      { "name": "Microsoft Copilot", "icon": "UserPlus" },
+      { "name": "Prompt Engineering", "icon": "Terminal" },
+      { "name": "Generative AI / LLM Integration", "icon": "Flame" }
     ]
   },
   {
@@ -29,6 +34,11 @@
     "skills": [
       { "name": "MongoDB", "icon": "Layers" },
       { "name": "MySQL", "icon": "Database" },
+      { "name": "Supabase", "icon": "Layers" },
+      { "name": "Firebase", "icon": "Flame" },
+      { "name": "Docker", "icon": "Container" },
+      { "name": "CI/CD (GitHub Actions)", "icon": "Workflow" },
+      { "name": "Cloud Deployment (Render)", "icon": "Cloud" },
       { "name": "Git / GitHub", "icon": "GitFork" },
       { "name": "Command Line", "icon": "Terminal" },
       { "name": "Basic AWS / Cloud", "icon": "Cloud" }
